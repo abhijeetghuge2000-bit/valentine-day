@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Love Meter ❤️</title>
+<style>
+body{font-family:Segoe UI;text-align:center;background:#ffb3c1;color:white;padding-top:80px;}
+.bar{width:300px;height:30px;background:white;margin:auto;border-radius:20px;}
+.fill{height:100%;width:0%;background:red;border-radius:20px;}
+button{padding:12px 30px;border:none;border-radius:25px;cursor:pointer;margin-top:20px;}
+</style>
+</head>
+<body>
+
+<h1>How much Motka Dudu loves Motki Bubu ❤️</h1>
+
+<div class="bar">
+<div class="fill" id="fill"></div>
+</div>
+
+<button onclick="love()">Check Love Level 😏</button>
+
+<script>
+function love(){
+ document.getElementById("fill").style.width="100%";
+}
+</script>
+
+<br><br>
+<button onclick="location.href='valentine.html'">Final Surprise 💘</button>
+
+</body>
+</html>
